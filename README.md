@@ -74,7 +74,6 @@ When you run `npm test`, Jest will launch in the watch mode. Every time you save
 ## Author
 
 João Silva - Web Engineer
-0773 873 1820
 email: joao.c7@gmail.com
 [LinkedIn](https://www.linkedin.com/in/joão-silva-9745a826)
 ## License
