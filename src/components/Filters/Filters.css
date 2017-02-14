@@ -1,0 +1,11 @@
+.App_filters {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .App_filters {
+    overflow: hidden;
+    padding: 10px 0;
+  }
+}

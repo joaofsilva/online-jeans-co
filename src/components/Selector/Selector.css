@@ -1,0 +1,10 @@
+.App_selector {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 0 10px;
+}
+
+.App_selectorSelect {
+  padding: 5px 0;
+  width: 100%;
+}

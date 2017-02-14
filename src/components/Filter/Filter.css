@@ -1,0 +1,46 @@
+.App_filter {
+  padding: 5px 0;
+  width: 100%;
+}
+.App_filterLabel {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.App_filterSelect {
+  width: 100%
+}
+
+@media (min-width: 600px) {
+  .App_filter {
+    box-sizing: border-box;
+    float: left;
+    padding-right: 20px;
+    width: 50%;
+  }
+  .App_filter:nth-child(2n) {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  .App_filtersWrap {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .App_filter {
+    width: 33.33%;
+  }
+  .App_filter:nth-child(3n-1) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .App_filter:nth-child(3n) {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  .App_filter:nth-child(3n+1) {
+    padding-right: 20px;
+    padding-left: 0;
+  }
+}
