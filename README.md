@@ -6,6 +6,13 @@ The tool is composed by a selector, the parameter from the list above you want t
 
 The results table or a 'No results found' message is shown when at least the selector has been specified.
 
+## Technologies & Approach
+
+The solution was implemented using React. Other technologies include:
+* webpack to do all sorts tasks required (uglify, minify, etc) to build the production ready bundle and watch for changes and hot-reload them in development mode
+* babel to transpile ES6 and JSX code
+
+As it wasn't required, the data is provided and loaded directly from a static file. On a live system the approach would obviously be different and would do all the processing on the backend and build a simple Node API to retrieve the results for a specific query (using query string parameters fir filtering).
 
 ## Installation
 
