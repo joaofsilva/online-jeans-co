@@ -6,7 +6,9 @@ The tool is composed by a selector, the parameter from the list above you want t
 
 The results table or a 'No results found' message is shown when at least the selector has been specified.
 
-## Technologies & Approach
+The UI is fluid responsive with 2 breakpoints set a 600px and 768px, resize the window to see it working.
+
+## Technologies
 
 The solution was implemented using React. Other technologies include:
 * webpack to do all sorts tasks required (uglify, minify, etc) to build the production ready bundle and watch for changes and hot-reload them in development mode
